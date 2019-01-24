@@ -7,6 +7,7 @@ var logger = require('morgan');
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
+console.log("HEllo World!");
 var app = express();
 console.log(1+1);
 
